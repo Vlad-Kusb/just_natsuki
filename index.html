@@ -15,7 +15,7 @@
         @font-face
         {
             font-family: Segoe Print;
-            src: url(segoepr.ttf);
+            src: url(segoepr.ttf), url(segoeprb.ttf);
         }
         ::-webkit-scrollbar-button {
             background-image:url('');
@@ -52,7 +52,7 @@
         .txt
             {
             /*border: 1px solid red;*/
-            /*padding: 10px;*/
+            padding: 10px;
             background: url(bg_txt.png);
             cursor: default;
             box-shadow: -19px 0 22px -19px #000, 19px 0 22px -19px #000;
@@ -76,6 +76,18 @@
             max-width: 387px;
             height: auto;
         }
+        .opros
+            {
+            /*border: 1px solid red;*/
+            padding: 10px;
+            background: url(bg_txt.png);
+            cursor: default;
+            box-shadow: -19px 0 22px -19px #000, 19px 0 22px -19px #000;
+            border-radius: 35px;
+            border: 3px solid red;
+            width: 500px;
+            margin: auto;
+            }
         A {color: #fb214a;}
         A:visited {color: #fb214a;}
         HTML
@@ -115,6 +127,18 @@
             Да и вообще она офигенная девчонка.
             </strong>
         </p>
+
+        <div class = 'opros'>
+        	<p align = 'center' ><strong>Просьба проголосовать за Макаарову Анастасию</strong></p>
+			<script type="text/javascript" src="https://vk.com/js/api/openapi.js?166"></script>
+			<!-- Put this div tag to the place, where the Poll block will be -->
+			<div id="vk_poll"></div>
+			<script type="text/javascript">
+			VK.Widgets.Poll("vk_poll", {width: 500}, "360557108_10f300e1e5aeb21886");
+			</script>
+		</div>
+
+		<br>
 
         <div align = 'center'>
         <script type="text/javascript" src="https://vk.com/js/api/openapi.js?162"></script>
