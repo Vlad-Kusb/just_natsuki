@@ -1,0 +1,97 @@
+
+@font-face
+{
+    font-family: Segoe Print;
+    src: url(fonts/segoepr.ttf), url(fonts/segoeprb.ttf);
+}
+
+::-webkit-scrollbar-button {
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:5px;
+    height:0px;
+}
+::-webkit-scrollbar-track {
+    background-color:#6f6f6f
+}
+::-webkit-scrollbar-thumb {
+    -webkit-border-radius: 0px;
+    border-radius: 0px;
+    background-color:#bf00db;
+}
+::-webkit-scrollbar-thumb:hover{
+    background-color:#ff00d2;
+}
+::-webkit-resizer{
+    background-image:url('');
+    background-repeat:no-repeat;
+    width:4px;
+    height:0px
+}
+::-webkit-scrollbar{
+    width: 13px;
+}
+
+.help{cursor: help;}
+
+.txt
+{
+    /*border: 1px solid red;*/
+    padding: 10px;
+    background: url(images/bg_txt.png);
+    cursor: default;
+    box-shadow: -19px 0 22px -19px #000, 19px 0 22px -19px #000;
+    border-radius: 35px;
+}
+
+.txt.vk-group {
+    margin: auto;
+    width: 40%;
+    max-width: 450px;
+    min-width: 230;
+    height: auto
+}
+
+.header{cursor: default;}
+
+/*.img
+{
+    margin: 0px 0px 0px 0;
+    box-shadow: -19px 0 22px -19px #000, 19px 0 22px -19px #000;
+    border-radius: 20px;
+}*/
+
+.img_bg
+{
+    /*float: left;*/
+    margin: 5px 10px 5px 5px;
+    background: url(images/bg_txt.png);
+    box-shadow: -19px 0 22px -19px #000, 19px 0 22px -19px #000;
+    border-radius: 35px;
+    width: 100%;
+    max-width: 387px;
+    height: auto;
+}
+.money
+    {
+        padding: 10px;
+    cursor: default;
+    width: 100%;
+    max-width: 500px;
+    margin: auto;
+}
+
+A {color: #fb214a;}
+A:visited {color: #fb214a;}
+
+/*HTML
+{
+    
+}*/
+body
+{
+    background: url(images/bg.png) repeat;
+    color: #e81953;
+    font-size: 21px;
+    font-family: Segoe Print, Ink Free, asinastra, Comic Sans, Comic Sans MS, Ink Free, Segoe Script;
+}
